@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("resources/features/Check_Vehicle_Details.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/main/resources/features/Check_Vehicle_Details.feature");
 formatter.feature({
   "line": 1,
   "name": "Verify Vehicle details",
@@ -203,21 +203,21 @@ formatter.match({
   "location": "CommonStepDefinition.user_visits_dvla_home_page()"
 });
 formatter.result({
-  "duration": 8971412103,
+  "duration": 4800891926,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonStepDefinition.user_clicks_on_start_now_button()"
 });
 formatter.result({
-  "duration": 2610041125,
+  "duration": 2066945324,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonStepDefinition.user_is_navigated_to_vehicle_enquiry_page()"
 });
 formatter.result({
-  "duration": 43345401,
+  "duration": 22584494,
   "status": "passed"
 });
 formatter.match({
@@ -230,35 +230,35 @@ formatter.match({
   "location": "CommonStepDefinition.user_enters_registration_number_something(String)"
 });
 formatter.result({
-  "duration": 312083030,
+  "duration": 191801434,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonStepDefinition.user_clicks_continue_button_on_vehicle_enquiry_page()"
 });
 formatter.result({
-  "duration": 939000072,
+  "duration": 638852811,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonStepDefinition.userIsAbleToSeeVehicleInformationOnThePage()"
 });
 formatter.result({
-  "duration": 84450142,
+  "duration": 47886773,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonStepDefinition.userClicksOnYesRadioButtonToConfirmTheVehicle()"
 });
 formatter.result({
-  "duration": 1151521429,
+  "duration": 1493214355,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonStepDefinition.user_is_able_to_see_vehicle_details_on_the_page()"
 });
 formatter.result({
-  "duration": 63055985,
+  "duration": 56449542,
   "status": "passed"
 });
 formatter.match({
@@ -271,7 +271,7 @@ formatter.match({
   "location": "CommonStepDefinition.user_verifies_make_of_the_vehicle_matches_with_something(String)"
 });
 formatter.result({
-  "duration": 154996872,
+  "duration": 81389586,
   "status": "passed"
 });
 formatter.match({
@@ -284,7 +284,7 @@ formatter.match({
   "location": "CommonStepDefinition.user_verifies_colour_of_the_vehicle_matches_with_something(String)"
 });
 formatter.result({
-  "duration": 172064365,
+  "duration": 76700636,
   "status": "passed"
 });
 formatter.match({
@@ -297,7 +297,7 @@ formatter.match({
   "location": "CommonStepDefinition.userVerifiesRegistrationDateOfTheVehicleMatchesWithSomething(String)"
 });
 formatter.result({
-  "duration": 156975397,
+  "duration": 73708816,
   "status": "passed"
 });
 formatter.match({
@@ -310,7 +310,7 @@ formatter.match({
   "location": "CommonStepDefinition.userVerifiesFuelTypeOfTheVehicleMatchesWithSomething(String)"
 });
 formatter.result({
-  "duration": 148940691,
+  "duration": 83613863,
   "status": "passed"
 });
 formatter.scenario({
@@ -400,21 +400,21 @@ formatter.match({
   "location": "CommonStepDefinition.user_visits_dvla_home_page()"
 });
 formatter.result({
-  "duration": 494071605,
+  "duration": 311555492,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonStepDefinition.user_clicks_on_start_now_button()"
 });
 formatter.result({
-  "duration": 550907729,
+  "duration": 1478751631,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonStepDefinition.user_is_navigated_to_vehicle_enquiry_page()"
 });
 formatter.result({
-  "duration": 49541879,
+  "duration": 13416633,
   "status": "passed"
 });
 formatter.match({
@@ -427,35 +427,35 @@ formatter.match({
   "location": "CommonStepDefinition.user_enters_registration_number_something(String)"
 });
 formatter.result({
-  "duration": 248973304,
+  "duration": 230996215,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonStepDefinition.user_clicks_continue_button_on_vehicle_enquiry_page()"
 });
 formatter.result({
-  "duration": 1655527501,
+  "duration": 1706275645,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonStepDefinition.userIsAbleToSeeVehicleInformationOnThePage()"
 });
 formatter.result({
-  "duration": 72445261,
+  "duration": 73867576,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonStepDefinition.userClicksOnYesRadioButtonToConfirmTheVehicle()"
 });
 formatter.result({
-  "duration": 813876337,
+  "duration": 2650852092,
   "status": "passed"
 });
 formatter.match({
   "location": "CommonStepDefinition.user_is_able_to_see_vehicle_details_on_the_page()"
 });
 formatter.result({
-  "duration": 159339535,
+  "duration": 65990304,
   "status": "passed"
 });
 formatter.match({
@@ -468,7 +468,7 @@ formatter.match({
   "location": "CommonStepDefinition.user_verifies_make_of_the_vehicle_matches_with_something(String)"
 });
 formatter.result({
-  "duration": 292398289,
+  "duration": 92035923,
   "status": "passed"
 });
 formatter.match({
@@ -481,7 +481,7 @@ formatter.match({
   "location": "CommonStepDefinition.user_verifies_colour_of_the_vehicle_matches_with_something(String)"
 });
 formatter.result({
-  "duration": 286102946,
+  "duration": 93433173,
   "status": "passed"
 });
 formatter.match({
@@ -494,7 +494,7 @@ formatter.match({
   "location": "CommonStepDefinition.userVerifiesRegistrationDateOfTheVehicleMatchesWithSomething(String)"
 });
 formatter.result({
-  "duration": 254899443,
+  "duration": 131519917,
   "status": "passed"
 });
 formatter.match({
@@ -507,7 +507,7 @@ formatter.match({
   "location": "CommonStepDefinition.userVerifiesFuelTypeOfTheVehicleMatchesWithSomething(String)"
 });
 formatter.result({
-  "duration": 271013978,
+  "duration": 112710788,
   "status": "passed"
 });
 });

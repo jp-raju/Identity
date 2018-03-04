@@ -15,6 +15,8 @@ import static io.restassured.path.json.JsonPath.*;
 import java.util.List;
 import com.identitye2e.tech.test.directory.scanner.DirectoryScannerApplication;
 
+import io.restassured.response.Response;
+
 
 @RunWith(SpringRunner.class)
 public class DirectoryScannerApplicationTests {
@@ -41,8 +43,8 @@ public class DirectoryScannerApplicationTests {
 	
 	@Test
 	public void verify_No_File_in_Directory() {
-		String response = get("http://localhost:8080/api/scan?path=src//main//resources//static").asString();
-		Assert.assertEquals("Blank data for blank directory failed.", "[]", response);
+		Response response = get("http://localhost:8080/api/scan?path=src//main//resources//static");
+		Assert.assertEquals("Blank data for blank directory failed.", 404, response.getStatusCode());
 	}
 	
 	
